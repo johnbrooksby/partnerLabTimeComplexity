@@ -12,7 +12,7 @@ function printNumbers(numbers) {
   }
   
 // Q: Given an array of numbers, what is the time complexity of this function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 // Q: What is the space complexity?
 // ANSWER: Constant
@@ -142,7 +142,7 @@ function removeNum() {
     numbers.splice(3,1)
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 10) -------------------------------------------------------
@@ -150,7 +150,7 @@ function insertNum() {
     numbers.splice(3, 0, 19)
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 11) -------------------------------------------------------
